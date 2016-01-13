@@ -1,0 +1,18 @@
+#!wing
+#!version=5.0
+##################################################################
+# Wing IDE project file                                          #
+##################################################################
+[project attributes]
+proj.file-list = [loc('magics.py'),
+                  loc('Parser.py'),
+                  loc('Run.py'),
+                  loc('Scanner.py'),
+                  loc('spark.py'),
+                  loc('verify.py'),
+                  loc('Walker.py'),
+                  loc('__init__.py')]
+proj.file-type = 'shared'
+proj.launch-config = {loc('Run.py'): ('project',
+                                      (u'"C:\\Python27\\Lib\\site-packages\\uncompyle2\\process"',
+                                       ''))}
