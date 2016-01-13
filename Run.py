@@ -43,7 +43,7 @@ if __name__ == "__main__":
     
     print("Decompiling....")    
     
-    decompile(filename)
+    decompile(filename) 
     
     print("Done!")
     raw_input("Press any key to continue...")    

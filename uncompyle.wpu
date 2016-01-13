@@ -8,6 +8,7 @@ cache.last-mime-type = {loc('unknown:<untitled> #8'): 'text/x-diff',
                         loc('unknown:<untitled> #1'): 'text/x-diff',
                         loc('unknown:<untitled> #5'): 'text/x-diff',
                         loc('unknown:<untitled> #7'): 'text/x-diff',
+                        loc('unknown:<untitled> #12'): 'text/x-diff',
                         loc('unknown:<untitled> #10'): 'text/x-diff'}
 debug.err-values = {loc('Run.py'): {}}
 debug.recent-run-args = {loc('Run.py'): [u'"C:\\Python27\\Lib\\site-packages\\uncompyle2\\process"']}
@@ -436,10 +437,10 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                                {'attrib-starts': [],
                                 'first-line': 21,
                                 'folded-linenos': [],
-                                'sel-line': 38,
-                                'sel-line-start': 1260,
-                                'selection_end': 1279,
-                                'selection_start': 1279}),
+                                'sel-line': 45,
+                                'sel-line-start': 1378,
+                                'selection_end': 1402,
+                                'selection_start': 1402}),
                               (loc('Parser.py'),
                                {'attrib-starts': [('AST',
         15),
@@ -501,8 +502,8 @@ guimgr.overall-gui-state = {'windowing-policy': 'combined-window',
                  'splits': 2,
                  'tab_location': 'left',
                  'user_data': {}},
-        'window-alloc': (405,
-                         76,
+        'window-alloc': (316,
+                         52,
                          1399,
                          852)}]}
 guimgr.recent-documents = [loc('Run.py'),
@@ -513,4 +514,6 @@ guimgr.recent-documents = [loc('Run.py'),
 testing.stored-results = (1,
                           [],
                           {})
+versioncontrol.git.remote-history = ['https://github.com/dude719/uncomyle-al'\
+                                     'l.git']
 versioncontrol.show-unregistered-in-status = True
